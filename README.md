@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Nitrate ERC20 Token
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Nitrate is an ERC20 token with the symbol NTR. This project uses OpenZeppelin for smart contract development and Hardhat for deploying and testing on a local server.
 
-Try running some of the following tasks:
+## Commands
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+### Install Dependencies
+
+```bash
+npm install

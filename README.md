@@ -9,5 +9,7 @@ Nitrate is an ERC20 token with the symbol NTR. This project uses OpenZeppelin fo
 ```bash
 npm install
 ```
-OR
+OR if you are using yarn
+```bash
 yarn install
+```

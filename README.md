@@ -13,3 +13,40 @@ OR if you are using yarn
 ```bash
 yarn install
 ```
+
+### Compilation
+
+```bash
+hh compile
+```
+
+### Deploying
+Deploying on hardhat/localhost
+```bash
+hh deploy
+```
+
+Deploying on a specific network (sepolia)
+```bash
+hh deploy --network <NETWROK NAME>
+```
+
+### Testing
+Testing on hardhat/localhost
+```bash
+hh test
+```
+Testing on a specific network (sepolia)
+```bash
+hh test --network <NETWROK NAME>
+```
+
+### Configuration
+Create a .env file in the global directory and add the following variables:
+```dotenv
+<NETWORK NAME>_RPC_URL="ENTER YOUR RPC URL"
+PRIVATE_KEY="ENTER YOUR PRIVATE KEY"
+ETHERSCAN_API_KEY="ENTER YOUR ETHERSCAN API KEY"
+```
+
+## Happy Programing!
